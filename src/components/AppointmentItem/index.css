@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.eachAppointmentContainer {
+  width: 300px;
+  list-style-type: none;
+  border-radius: 9px;
+  padding: 1px 15px;
+  border: 1px solid #b5b7c4;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+.titleStarred {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleHeading {
+  color: #171f46;
+  font-weight: 700;
+  font-size: 20px;
+}
+.starImage {
+  background-color: transparent;
+  border: 0px solid;
+}
+.appointmentDateTime {
+  margin-top: 0px;
+  color: #b5b7c4;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .eachAppointmentContainer {
+    width: 220px;
+  }
+  .titleHeading {
+    font-size: 15px;
+  }
+  .appointmentDateTime {
+    font-size: 15px;
+  }
+}
